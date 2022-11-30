@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test For M5</title>
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <style>
+    .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding: 1em;
+    font-size: 1.5em ;
+    
+}
+.menu-container{
+   height: 1.5vh;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+*{
+    margin: 0%;
+}
+/* this is for page i image and bussness landing page */
+.content1{
+    display: flex;
+    justify-content: space-between;
+    height: 85vh;
+    background-color: black;
+    color: aliceblue;
+   
+    position:sticky;
+    top:0;
+}
+#heading{
+    font-size: 10em;
+    height: 69vh;
+    margin-bottom: 15vh;
+    padding: 60px;
+    margin-left: 50px;
+    background-color:black;
+    animation-name: example;
+    animation-duration: 2s;
+
+    position:sticky;
+    top:0; 
+  }
+   
+#child{
+    position: sticky;
+    top:0px;
+}
+@keyframes example {
+    from {background-color:black;}
+    to {background-color: rgb(49, 93, 189);}
+  }
+.firstimg{
+    padding: 50px;
+    margin-top: 35vh;
+    margin-right: 15vw;
+    height: 40vh;
+    width: 30vw;
+   
+    top: 0;
+    position: sticky;
+    
+    /* position: absolute; */
+}
+
+.site-body{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.imagetwo{
+    margin:90px;
+}
+.content{
+    margin:100px;
+}
+#s2{
+    text-align: left;
+    margin-left:60px;
+    font-size: 25px;
+
+}
+.ccontainer{
+    display: flex;
+    /* justify-content: flex-start; */
+}
+.box{
+    width:300px;
+    height:auto;
+    background-color: aliceblue;
+    margin: 40px;
+    padding: 50px;
+}
+.item1{
+    /* border-radius: 5px; */
+     padding-left: 50px;
+     border: 1.5px solid black;
+    
+}
+.item2{
+    /* border-radius: 5px; */
+     padding-left: 50px; 
+     border: 1.5px solid black;
+}.item3{
+    /* border-radius: 5px; */
+     padding-left:50px; 
+     border: 1.5px solid black;
+    
+}
+.hover:hover{
+    background-color: black;
+    color: white;
+    animation-timing-function: 0.3s;
+}
+#hr{
+    color:black;
+     border-color:transparent;
+      background-color:black;
+      border: 2px solid black;
+      margin-left: 35px;
+      margin-right: 40px;
+}
+.about{
+    background-color: black;
+    padding: 40px;
+    padding-left: 120px;
+}
+#h3{
+    color: aliceblue;
+    width: 100vw;
+    justify-content: center;
+}
+input{
+    width:80vw;
+    padding-left: 10px;
+    margin: 5px;
+    height: 20px;
+    /* background-color: black; */
+    border: 1.5px solid white;
+    
+}
+button{
+    padding-left: 10px;
+    height: 30px;
+    margin: 5px;
+
+}
+.serve{
+    margin: 40px;
+    padding: 40px;
+}
+.tbl{
+    background-color: black;
+    color: azure;
+    border-color: aliceblue;
+}
+.btn{
+    margin: 5px;
+    padding-left: 10px;
+}
+
+  </style>
+  <body>
+    <!-- This header part containing nav elements and it sticky -->
+    <header class="child">
+    <nav class="container">
+        <div class="item" id="hm">Business Name</div>
+        <div class="item menu-container">
+            <a href="#hm">Home</a>
+            <a href="#abt">About Us</a>
+            <a href="#jump">Know More</a>
+            <a href="#cnt">Contact Us</a>
+        </div>
+    </nav>
+    </header>
+    <hr>
+    <body>
+    <main >
+        <nav>
+        <section class="content1" id="child"> 
+            <div><p id="heading">BUSINESS LANDING PAGE <a href="#jump">&#x2193</a></p>
+            </div>
+            <div id="child">
+            <img class="firstimg" id="child" src="https://s3-alpha-sig.figma.com/img/ac13/92fc/6d8671ca2517bb88873d2cc76d94ed96?Expires=1670803200&Signature=HnQEGLGDwv9kQKa1fJAcBWCkWgQTJuHu5UocNd3BzQ5PHMcCQviLMowlarkFUBLUj9E24Dh00Fw99EqFRjB4eTDg3-hNkmlLx~EgsRZ9Gnfg6w6VzENAhD1aHGgRcq8X83ghQ2jAYnMi6Hp2v3Gq9hKOLE8GBVs6Ldiyg2XVFag-zweUZWGLeLTzCNgOQHIaiDUBH~9xjGQn7f86zZqpSWLQY1AmVGmEMLiL9DIUQk7muQ0Htoi7frbONQKc2WvEwXasfjs5HBqMkZuQihcGjx3NYoaawH1dfKFbVLHnIZfSheqoFAx~4eQmiY5oySDU6h1uwFJn1X39YQwW-PIcwg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA" alt="Laptop">
+            </div>
+           </nav>
+         </section>
+    <!-- this is belongs to Content of the page -->
+  
+    <section class="site-body">
+    <div >
+        <img class="imagetwo" src="https://images.pexels.com/photos/3048527/pexels-photo-3048527.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Stair case">
+    </div>
+    <div class="content" id="abt">
+        <h1>ABOUT US</h1><br><br>
+        <P>Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet in veniam quisquam vitae quo unde doloribus voluptates, sed similique quia! Velit eum assumenda deleniti hic aliquam asperiores dolorum distinctio, iusto ipsam enim voluptas adipisci, doloremque quam labore, quae quibusdam blanditiis culpa quo nihil voluptatibus dolor? Maiores voluptates aliquam cumque quos iusto fugit saepe quas rem officia eligendi laboriosam enim, pariatur eos soluta suscipit. Doloremque, perspiciatis eius aut pariatur rerum cupiditate, corrupti in doloribus amet quibusdam est repellendus alias ad saepe beatae. Quo est reiciendis odio expedita, impedit vero temporibus quis ab earum quam, commodi vel iste molestias et placeat maiores dolores officiis ipsam? Soluta eos cum, repellat assumenda qui debitis nemo reprehenderit nobis laborum enim nihil nostrum adipisci quae saepe laudantium ut rerum itaque cumque voluptatum deleniti? Reprehenderit beatae rerum, debitis earum neque voluptates assumenda, deserunt eius ipsa expedita rem cumque mollitia voluptate, sunt molestias nesciunt aperiam </P>
+    </div>
+</section>
+<!-- image and about us has been completed-->
+     <section id="jump" class="site2-body">
+        <h1 class="hover" id="s2">OUR SERVICES</h1> 
+    </section>
+    <section>
+        <div class="ccontainer">
+            <div class="item1 box">
+                 <h1 class="hover">Service 1</h1><br>
+                 <p><h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nam eius obcaecati cumque modi nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, doloribus iure expedita magni voluptate laborum sunt, fugit iusto et ab sapiente eos! Necessitatibus eligendi a voluptates facere consequatur fugit impedit?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos accusantium aliquam cumque facilis autem saepe perferendis veniam, reiciendis, adipisci omnis, recusandae quod repellat at obcaecati ad rem tempore labore! Consequatur.</h4></p></div><br>
+            <div class="item2 box"><h1 class="hover">Service 2</h1><br>
+                 <p><h4>Lorem,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, quos! Consectetur sint harum quod velit minima laboriosam porro dignissimos non impedit totam adipisci suscipit error accusamus, molestias tenetur. Ipsam veritatis eligendi voluptatem dolorem. Numquam aperiam maxime labore, dolore voluptates fugit ab ea odit facere molestiae harum voluptate vel dolorum quis! Ipsum, nihil? Quam praesentium delectus saepe iusto necessitatibus autem nesciunt! ipsum dolor sit amet consectetur adipisicing elit. Aliquid perspiciatis atque perferendis cumque, non eum.</h4></p></div><br>
+            <div class="item3 box">
+                 <h1 class="hover">Service 3</h1><br>
+                 <p><h4>Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, id. Laboriosam illum, placeat eligendi rem quae perspiciatis ad voluptate tempora, sed alias ipsam doloremque sequi. Aut harum neque molestias eligendi illum perspiciatis impedit laboriosam modi quidem facilis ipsa quo, nam accusamus tempore culpa velit maiores adipisci minus saepe doloremque veritatis molestiae quae nesciunt. Ipsum placeat adipisci, assumenda laudantium dolor deleniti! dolor sit amet consectetur adipisicing elit. Itaque veritatis nulla unde, sequi dolorum cum.</h4></p>
+            </div><br>
+        
+          </div>
+    </section>
+</main>
+<hr id="hr"><hr id="hr"><br><br>
+  
+ <footer>
+    <!-- insted of align ceter im using &nbsp to remember the id -->
+            <form class="about" action="mail to:abc@gmail.com">
+             <div class="info" id="cnt"><h1 id="h3">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCONTACT US</h1><br></div>
+              <div class="contactus">
+                 <!-- <label for="fname" ></label> -->
+                 <input type="text"class="tbl" name="fname" id="fname" required placeholder="Full Name"> <br><br>
+                 <!-- <label for="lname" ></label> -->
+                 <input type="text" class="tbl" name="lname" id="lname" required placeholder="Last Name"><br><br>
+                 <!-- <label for="email"></label> -->
+                 <input type="email" class="tbl" name="email" id="email" required placeholder="Email Address"><br><br>
+                 <!-- <label for="reason"></label> -->
+                <input type="text" class="tbl" name="reason" id="reason" required placeholder="Reason For Contacting"><br><br>
+                <button type="submit" class="btn">Submit</button>
+              </div>
+            </form>
+        </footer>
+        <script type="text/javascript" src="./script.js">
+        </script>
+        </body>
+
+        </html>
+
